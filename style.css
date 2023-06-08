@@ -1,0 +1,121 @@
+#btn {
+    height: 45px;
+    width: 300px;
+    background-color: rgb(221, 229, 242);
+    color: rgb(0, 0, 0);
+    border-radius: 13px;
+
+
+    -webkit-box-shadow: 10px 14px 11px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 10px 14px 11px 0px rgba(0, 0, 0, 1);
+    box-shadow: 10px 14px 11px 0px rgba(0, 0, 0, 1);
+
+
+    /* margin: 399px 542px; */
+   
+    /* fonts */
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 25px;
+
+   margin-top: 400px;
+
+   cursor: pointer;
+}nav li{
+    list-style: none;
+    display:flex;
+    float: left;
+}
+*{
+    margin: 0px 0px;
+}
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    display: grid;
+    place-items: center;
+}
+#box{
+    height: 295px;
+    width: 530px;
+    border: 1px solid black;
+    position: absolute;
+    margin-top: 400px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 25px;
+
+}
+.box-container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#menubox{
+    height: 100vh;
+    width: 30vw;
+    background-color: aqua;
+    position: absolute;
+    /* display:flex; */
+    /* flex-direction:flex-end; */
+    transition: transform 0.3s ease-in;
+    display: none;
+}
+.container {
+    /* display: flex; */
+}
+
+
+ @media only screen and (max-width: 900px) {
+    /* body {
+        background-color:lightgreen;
+    } */
+
+    #box{
+        height: 338px;
+        width: 390px;
+        margin-left: -72px;
+    }
+    #btn{
+    margin-left: -72px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 400px) {
+    /* body {
+        background-color:rgb(223, 213, 244);
+    } */
+
+    #box{
+        height: 338px;
+        width: 321px;
+        margin-left: -10px;
+        /* margin-right: 10px; */
+    }
+    #btn{
+    margin-left: -25px;
+    }
+
+
+
+}
